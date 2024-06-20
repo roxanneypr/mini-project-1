@@ -50,8 +50,8 @@ public class Calculator {
                     break;
                 } else if (operation.equals("clear")) {
                     isFirstOperation = true;
-                    System.out.println("Cleared. Enter number: ");
-                    result = scanner.nextDouble();
+                    System.out.println("Cleared.");
+                    //result = scanner.nextDouble();
                     continue;
                 }
 
